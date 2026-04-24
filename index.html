@@ -25,10 +25,26 @@
     }
     </script>
     <style>
-    *{box-sizing:border-box;margin:0;padding:0;}body{background-color:white;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;max-width:800px;margin:0 auto;padding:20px;}h1{font-size:2.5rem;margin-bottom:30px;text-align:center;}#privacy-promise{margin-bottom:20px;font-size:14px;color:#666;text-align:center;}#sqlInput{width:100%;height:40vh;padding:15px;border:1px solid #ddd;border-radius:4px;resize:vertical;font-family:monospace;}#scanBtn{display:block;width:100%;margin-top:20px;padding:15px;background-color:red;color:white;border:none;border-radius:4px;cursor:pointer;font-size:1.2rem;font-weight:bold;}#scanBtn:hover{background-color:#cc0000;}#results{margin-top:30px;display:none;}.alert-box{margin-bottom:20px;padding:15px;border:1px solid red;border-radius:4px;background-color:#fff5f5;}.alert-box h3{color:red;margin-bottom:10px;}.alert-box ul{list-style-type:none;padding-left:20px;}.alert-box li{margin-bottom:5px;color:red;}#payTrigger{margin-top:30px;padding:20px;border:3px dashed red;border-radius:4px;background-color:#fff5f5;}#payTrigger p{margin-bottom:20px;}#paypal-btn{display:block;width:100%;padding:15px;background-color:blue;color:white;text-align:center;text-decoration:none;border-radius:4px;font-weight:bold;}#paypal-btn:hover{background-color:#0000cc;}footer{margin-top:40px;padding-top:20px;border-top:1px solid #ddd;font-size:14px;color:#666;text-align:center;}@media (max-width: 375px){body{padding:10px;}h1{font-size:2rem;}#sqlInput{height:30vh;}#scanBtn{padding:10px;font-size:1rem;}}
+    *{box-sizing:border-box;margin:0;padding:0;}body{background-color:white;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;max-width:800px;margin:0 auto;padding:20px;}h1{font-size:2.5rem;margin-bottom:30px;text-align:center;}#privacy-promise{margin-bottom:20px;font-size:14px;color:#666;text-align:center;}#sqlInput{width:100%;height:40vh;padding:15px;border:1px solid #ddd;border-radius:4px;resize:vertical;font-family:monospace;}#scanBtn{display:block;width:100%;margin-top:20px;padding:15px;background-color:red;color:white;border:none;border-radius:4px;cursor:pointer;font-size:1.2rem;font-weight:bold;}#scanBtn:hover{background-color:#cc0000;}#results{margin-top:30px;display:none;}.alert-box{margin-bottom:20px;padding:15px;border:1px solid red;border-radius:4px;background-color:#fff5f5;}.alert-box h3{color:red;margin-bottom:10px;}.alert-box ul{list-style-type:none;padding-left:20px;}.alert-box li{margin-bottom:5px;color:red;}#payTrigger{margin-top:30px;padding:20px;border:3px dashed red;border-radius:4px;background-color:#fff5f5;}#payTrigger p{margin-bottom:20px;}#paypal-btn{display:block;width:100%;padding:15px;background-color:blue;color:white;text-align:center;text-decoration:none;border-radius:4px;font-weight:bold;}#paypal-btn:hover{background-color:#0000cc;}
+    .breadcrumbs{text-align: left; margin-bottom: 20px; font-size: 14px;text-decoration:none;}
+        .breadcrumbs a{text-decoration:none;}
+        footer{margin-top:40px;padding-top:20px;border-top:1px solid #ddd;font-size:14px;color:#666;text-align:center;}
+        .footer-content { max-width: 1200px; margin: 0 auto; }
+        .site-list { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 15px; }
+        .site-item { font-size: 0.9rem; color: #666; }
+        .site-item a { color: #666; text-decoration: none; }
+        .site-item a:hover { text-decoration: underline; }
+        .footer-info { font-size: 0.9rem; color: #666; margin-top: 15px; }
+        .footer-info p { text-align:center;}
+        .footer-info a { color: #666; text-decoration: none; }
+        .footer-info a:hover { text-decoration: underline; }
+    @media (max-width: 375px){body{padding:10px;}h1{font-size:2rem;}#sqlInput{height:30vh;}#scanBtn{padding:10px;font-size:1rem;}}
     </style>
 </head>
 <body>
+    <div class="breadcrumbs">
+        <a href="https://www.wangdadi.xyz" style="target=_blank">《 Home</a>
+    </div>
     <h1>Supa Leak: Is Your Supabase Database Exposed?</h1>
     
     <div id="privacy-promise">
@@ -141,8 +157,19 @@
             payTrigger.style.display = 'block';
         });
     </script>
-    <footer>
-        Serving Global Supabase Developers | Database Security Auditor v1.0 | No Data Collected (Client-side Only)
+<footer>
+        <div class="footer-content">
+            <div class="site-list">
+                <div class="site-item"><a href="https://agents.wangdadi.xyz" target="_blank">Agents</a></div>
+                <div class="site-item"><a href="http://artemisreentry.wangdadi.xyz/" target="_blank">Artemis Reentry</a></div>
+                <div class="site-item"><a href="https://boothell.wangdadi.xyz" target="_blank">Boot Hell</a></div>
+                <div class="site-item"><a href="https://cleancsvai.wangdadi.xyz" target="_blank">Clean CSV AI</a></div>
+                <div class="site-item"><a href="http://coachellaviral.wangdadi.xyz/" target="_blank">Coachella Viral</a></div>
+            </div>
+            <div class="footer-info">
+                <p>Support: <a href="mailto:457239850@qq.com">457239850@qq.com</a> | <a href="https://www.wangdadi.xyz/" target="_blank">home</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
